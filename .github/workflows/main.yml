@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print
-      env:
-        FIRST_NAME: Taro
-      run: echo Hello $FIRST_NAME
+        env:
+          FIRST_NAME: Taro
+        run: echo Hello $FIRST_NAME
