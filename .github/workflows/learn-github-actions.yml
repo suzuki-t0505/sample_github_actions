@@ -1,8 +1,8 @@
-name: learn-github-actions
+name: seciond
 on: [push]
 jobs: 
   check-bats-version:
     runs-on: ubuntu-latest
-    setup:
+    steps:
       - name: Hello World
         run: echo "Hello"
