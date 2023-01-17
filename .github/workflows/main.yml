@@ -3,7 +3,7 @@ on: [push]
 jobs: 
   my-os:
     runs-on: ubuntu-latest
-    setups:
+    steps:
       - name: print
       env:
         FIRST_NAME: Taro
