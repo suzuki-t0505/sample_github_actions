@@ -1,0 +1,10 @@
+name: "First"
+on: [push]
+jobs: 
+  my-os:
+    runs-on: ubuntu-latest
+    setups:
+      - name: print
+      env:
+        FIRST_NAME: Taro
+      run: echo Hello $FIRST_NAME
